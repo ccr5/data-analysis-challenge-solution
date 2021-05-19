@@ -28,9 +28,8 @@
 
 ## About The Project
 
-This repository contains the solution to a challenge passed during a job interview for the Business 
-Intelligence vacancy in 2019. As it is a real case, all relevant company information and the like 
-were removed.
+This repository contains the solution to a challenge passed during a job interview for the 
+BI developer in 2019. As it's a real case, all relevant company information were removed.
 
 
 ### Built With
