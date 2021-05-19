@@ -1,5 +1,5 @@
 -- SQL Test
-use looqbox_challenge;
+use challenge;
 
 # 1. How many products does the company have?
 select count(PRODUCT_COD) as QTD_PRODUTOS_CADASTRADOS from data_product;

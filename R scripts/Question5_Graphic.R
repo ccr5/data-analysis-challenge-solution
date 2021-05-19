@@ -14,10 +14,10 @@ library(dplyr)
 
 # Conecting to the database LooqBox
 con = dbConnect(RMySQL::MySQL(),
-                dbname = "looqbox_challenge",
-                host = "35.199.127.241",
-                user = "looqbox-challenge",
-                password = "looq-challenge",
+                dbname = "challenge",
+                host = "xx.xxx.xxx.241",
+                user = "challenge",
+                password = "challenge",
                 port = 3306
 )
 
@@ -40,8 +40,8 @@ for(i in c(1:length(dataset$QTD_VENDAS))) {
 }
 
 # Shortening the name to fit the chart
-dataset$DEPARTAMENTO[[6]] = "GENÉRICOS"
-dataset$DEPARTAMENTO[[7]] = "REFERÊNCIA"
+dataset$DEPARTAMENTO[[6]] = "GENï¿½RICOS"
+dataset$DEPARTAMENTO[[7]] = "REFERï¿½NCIA"
 
 # Ordering the dataset
 dataset$DEPARTAMENTO = factor(dataset$DEPARTAMENTO, levels=dataset$DEPARTAMENTO[order(dataset$QTD_VENDAS)], 
@@ -76,8 +76,8 @@ for(i in c(1:length(dataset$QTD_VENDAS))) {
 }
 
 # Shortening the name to fit the chart
-dataset$DEPARTAMENTO[[7]] = "GENÉRICOS"
-dataset$DEPARTAMENTO[[8]] = "REFERÊNCIA"
+dataset$DEPARTAMENTO[[7]] = "GENï¿½RICOS"
+dataset$DEPARTAMENTO[[8]] = "REFERï¿½NCIA"
 
 # Ordering the dataset
 dataset$DEPARTAMENTO = factor(dataset$DEPARTAMENTO, levels=dataset$DEPARTAMENTO[order(dataset$QTD_VENDAS)], 

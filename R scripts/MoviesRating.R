@@ -11,10 +11,10 @@ library(dplyr)
 
 # Conecting to the database LooqBox
 con = dbConnect(RMySQL::MySQL(),
-                dbname = "looqbox_challenge",
-                host = "35.199.127.241",
-                user = "looqbox-challenge",
-                password = "looq-challenge",
+                dbname = "challenge",
+                host = "xx.xxx.xxx.241",
+                user = "challenge",
+                password = "challenge",
                 port = 3306
 )
 
